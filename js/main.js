@@ -10,11 +10,13 @@ var cardsInPlay = card[1]
 var cardOne = cards[0];
 cardsInPlay.push(cardOne);
 console.log("User flipped " + cardOne);
-if (cardsInPlay === cards [0])
-console.log("You found a match")
-	else {
-		console.log("pick another card")
-	}
+
+
+	if (cardsInPlay[0] === cardsInPlay[1]) {
+console.log("You found a match!");
+} else {
+console.log("Sorry, try again.");
+}
 	
 var cardTwo = cards[2];
 cardsInPlay.push(cardTwo);
